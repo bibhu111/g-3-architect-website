@@ -9,3 +9,73 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* shared styles */
+
+.display_flex{
+  display: flex;
+}
+/* dark-2 */
+.text-grey{
+  color: #424242;
+}
+/* dark-3 */
+.text-light-grey{
+  color: #727272;
+}
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+
+}
+.btn-primary{
+    width: 180px;
+    height: 64px;
+    border-radius: 8px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    background-color: #FF900E;
+    color: aliceblue;
+    /* padding: 20px 25px; */
+    border: 0;
+}
+/* header styles */
+
+
+/* navbar styles */
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link{
+  text-decoration: none;
+}
+.navbar{
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar,.banner{
+  width: 1440px;
+  /* background-color: red; */
+  margin: 0 auto;
+}
+.brand{
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+/* banner-relate-styles */
+.banner-content{
+  width: 862px;
+  /* background-color: red; */
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+.banner-image{
+  width: 100%;
+}
+
+/* responsive media-query */
